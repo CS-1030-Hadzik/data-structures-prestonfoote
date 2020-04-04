@@ -36,7 +36,7 @@ print (cars)
 
 length = len(cars)
 
-array_string = 'The length of my array is '
+array_string = 'The length of my array is ' + str(length)
 
 txt = array_string
 
