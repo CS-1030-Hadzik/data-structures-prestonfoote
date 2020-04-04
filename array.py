@@ -34,8 +34,10 @@ cars.sort(reverse=True)
 
 print (cars)
 
-my_array_length = (x)
+length = len(cars)
 
 array_string = 'The length of my array is '
 
-print (array_string + my_array_length)
+txt = array_string
+
+print (txt.format(length))
